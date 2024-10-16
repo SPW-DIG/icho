@@ -4,6 +4,7 @@
   "license": "MIT",
   "scripts": {
     "start": "nx serve",
+    "start-webcomponents": "nx serve webcomponents",
     "build": "nx build",
     "test": "nx test",
     "lint-all": "node_modules/prettier/bin-prettier.js --write *;nx run-many --all --target=lint;",
@@ -28,7 +29,7 @@
     "react-dom": "16.14.0",
     "react-i18next": "^11.15.3",
     "react-router-dom": "^6.0.2",
-    "react-to-webcomponent": "^1.5.1",
+    "react-to-webcomponent": "^1.7.6",
     "regenerator-runtime": "0.13.7",
     "semantic-ui-css": "^2.4.1",
     "semantic-ui-react": "^2.0.4",
